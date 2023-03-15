@@ -49,7 +49,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  String _text = "Bilangan Prima ?";
+  String _text = "Bilangan Prima: ";
   int prima = 0;
 
   void _incrementCounter() {
@@ -68,6 +68,13 @@ class _MyHomePageState extends State<MyHomePage> {
           _text += '${i}, ';
         }
       }
+    });
+  }
+
+  void reset(){
+    setState(() {
+      _counter = 0;
+      _text = "Bilangan Prima: ";
     });
   }
 
@@ -116,6 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
               _text,
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            ElevatedButton(onPressed: reset, child: Text("reset"))
           ],
         ),
       ),
