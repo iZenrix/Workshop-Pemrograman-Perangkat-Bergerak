@@ -60,51 +60,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/images/ghibli1.jpg
-     - assets/images/ghibli2.jpg
-     - assets/images/ghibli3.jpg
-     - assets/images/submarine.jpg
-     - assets/images/logo-ghibli.jpg
-     - assets/images/movie/gof (1).jpg
-     - assets/images/movie/gof (2).jpg
-     - assets/images/movie/gof (3).jpg
-     - assets/images/movie/gof (4).jpg
-     - assets/images/movie/hmc (1).jpg
-     - assets/images/movie/hmc (2).jpg
-     - assets/images/movie/hmc (3).jpg
-     - assets/images/movie/hmc (4).jpg
-     - assets/images/movie/kds (1).jpg
-     - assets/images/movie/kds (2).jpg
-     - assets/images/movie/kds (3).jpg
-     - assets/images/movie/kds (4).jpg
-     - assets/images/movie/mnt (1).jpg
-     - assets/images/movie/mnt (2).jpg
-     - assets/images/movie/mnt (3).jpg
-     - assets/images/movie/mnt (4).jpg
-     - assets/images/movie/sa (1).jpg
-     - assets/images/movie/sa (2).jpg
-     - assets/images/movie/sa (3).jpg
-     - assets/images/movie/sa (4).jpg
-     - assets/images/movie/po (1).jpg
-     - assets/images/movie/po (2).jpg
-     - assets/images/movie/po (3).jpg
-     - assets/images/movie/po (4).jpg
-     - assets/images/movie/twr (1).jpg
-     - assets/images/movie/twr (2).jpg
-     - assets/images/movie/twr (3).jpg
-     - assets/images/movie/twr (4).jpg
-     - assets/images/movie/pm (1).jpg
-     - assets/images/movie/pm (2).jpg
-     - assets/images/movie/pm (3).jpg
-     - assets/images/movie/pm (4).jpg
-     - assets/images/movie/pk (1).jpg
-     - assets/images/movie/pk (2).jpg
-     - assets/images/movie/pk (3).jpg
-     - assets/images/movie/pk (4).jpg
-     - assets/images/movie/oy (1).jpg
-     - assets/images/movie/oy (2).jpg
-     - assets/images/movie/oy (3).jpg
-     - assets/images/movie/oy (4).jpg
+    - assets/images/movie/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

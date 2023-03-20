@@ -42,7 +42,9 @@ Widget listItem(Movies movie){
       children: <Widget> [
         Expanded(
           flex: 1,
-          child: Image.asset(movie.imageAsset, fit: BoxFit.cover,),
+          child : Container(
+            child: Image.asset(movie.imageAsset, fit: BoxFit.cover,),
+          ),
         ),
         Expanded(
           flex: 2,
@@ -60,7 +62,7 @@ Widget listItem(Movies movie){
                   ),
                 ),
                 const SizedBox(
-                  height: 10,
+                  height: 20,
                 ),
                 Text(
                   movie.genre,
