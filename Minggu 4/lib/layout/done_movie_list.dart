@@ -19,7 +19,7 @@ class DoneMovieList extends StatelessWidget{
       appBar: AppBar(
         backgroundColor: const Color(0xFFF3B2FF),
         title: const Text(
-          'Ghibli Movies',
+          'Completed Movies',
           style: TextStyle(
             fontFamily: 'Kiona',
           ),
